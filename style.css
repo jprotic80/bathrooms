@@ -1016,6 +1016,14 @@ nav {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.single-footer {
+  width: 20%;
+  padding: 1rem;
+}
+
+.single-footer:first-child {
+  width: 40%;
+}
 @media screen and (max-width: 745px) {
   .footer {
     flex-direction: column;
@@ -1023,20 +1031,11 @@ nav {
     align-items: center;
   }
   .single-footer {
-    width: 100%;
+    width: 40%;
   }
   .single-footer:first-child {
-    width: 100%;
+    width: 40%;
   }
-}
-
-.single-footer {
-  width: 62%;
-  padding: 1rem;
-}
-
-.single-footer:first-child {
-  width: 62%;
 }
 
 .single-footer h4 {
